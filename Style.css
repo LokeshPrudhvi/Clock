@@ -1,80 +1,66 @@
-body{
+body {
     background-color: #152238;
-}
-
-.red{
-    width: 250px;
+  }
+  
+  .red {
+    width: 100%;
+    max-width: 250px;
     height: 250px;
     background-color: red;
     border-radius: 8px;
-    position: relative;
-    left: 300px;
-    top: 400px;
+    margin: 20px auto;
     filter: blur(6px);
+    position: fixed;
+    top: 30%;
+    left:20%;
     z-index: -2;
-}
-.yellow{
-    width: 300px;
+  }
+  
+  .yellow {
+    width: 100%;
+    max-width: 300px;
     height: 250px;
     background-color: rgb(240, 204, 58);
     border-radius: 8px;
-    position: absolute;
-    left: 1200px;   
-    top: 100px;
+    margin: 20px auto;
     filter: blur(6px);
-    z-index: -1;
-}
-.Bg{
-    width: 800px;
+    position: fixed;
+    top: 5%;
+    left:60%;
+    z-index: -2;
+  }
+  
+  .Bg {
+    width: 100%;
+    max-width: 800px;
     height: 250px;
     background-color: rgb(227, 244, 255);
     border-radius: 8px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: auto;
-    opacity: 50%;
-    z-index: 0;
-}
-.hrs{
+    margin: 20px auto;
+    opacity: 70%;
+  }
+  
+  .hrs,
+  .min,
+  .sec {
     background-color: rgb(255, 255, 255);
     margin: 20px;
     border-radius: 25px;
     font-family: "Glegoo", serif;
     font-weight: 700;
-    font-size: 65px;
+    font-size: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: +1;
-}
-.min{
-    background-color: rgb(255, 255, 255);
-    margin: 20px;
-    border-radius: 25px;
-    font-family: "Glegoo", serif;
-    font-weight: 700;
-    font-size: 65px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: +1;
-}
-.sec{
-    background-color: rgb(255, 255, 255);
-    margin: 20px;
-    border-radius: 25px;
-    font-family: "Glegoo", serif;
-    font-weight: 700;
-    font-size: 65px;
-    display: flex;
-    justify-content: center;    
-    align-items: center;
-    
-}
-.Clock{
-    font-size: 78px;
+  }
+  
+  .Clock {
+    font-size: 48px;
     font-family: "Glegoo";
     color: antiquewhite;
-    display: flex;
-    justify-content: center;
-}
+    text-align: center;
+    margin-top: 20px;
+  }
+  
